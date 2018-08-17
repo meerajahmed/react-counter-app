@@ -1,9 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Result extends Component {
-  render() {
-    return (
-      <h2>{this.props.output}</h2>
-    )
-  }
-}
+const Result = (props) => <h5 className="card-title">{props.output}</h5>;
+
+export default Result;

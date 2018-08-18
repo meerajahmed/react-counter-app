@@ -1,3 +1,5 @@
-/**
- * Created by meeahmed on 8/19/2018.
- */
+export const INCREMENT = 'INCREMENT';
+
+export default () => ({
+  type: INCREMENT
+});

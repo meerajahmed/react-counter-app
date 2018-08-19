@@ -10,6 +10,7 @@ export default (props) => (
           <Result output={props.count}/>
           <div className="btn-group" role="group" aria-label="counter button">
             <Button label="Increment" onClickCb={props.handleIncrement}/>
+            <Button label="Increment Async" onClickCb={props.handleIncrementAsync}/>
             <Button label="Decrement" onClickCb={props.handleDecrement}/>
           </div>
         </div>

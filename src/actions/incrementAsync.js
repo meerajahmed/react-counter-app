@@ -1,5 +1,5 @@
-export const INCREMENT = 'INCREMENT';
+export const INCREMENT_ASYNC = 'INCREMENT_ASYNC';
 
 export default () => ({
-  type: INCREMENT
+  type: INCREMENT_ASYNC
 });
